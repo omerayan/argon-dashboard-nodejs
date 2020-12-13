@@ -17,7 +17,7 @@ function isAuthenticated(req, res, next) {
 }
 
 /* GET home page. */
-router.get('/', isAuthenticated, (req, res) => {
+router.get('/',  (req, res) => {
   res.render('pages/dashboard');
 });
 
